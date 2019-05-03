@@ -12,16 +12,55 @@ body {
 .container {
   margin: 0 auto;
   width: 420px;
+
+}
+.arrow {
+    width: 10%;
+    padding-right: 5%;
+
+}
+.content {
+    width: 90%;
+    padding: 20px;
+    font-size: 13px;
+}
+.arrow-left {
+    width: auto;
+    background: transparent;
 }
 
+.restaurant-list i {
+  float: right;
+  padding-top: 25px;
+
+}
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 15px 0 15px 15px;
   position: fixed;
   width: 420px;
+  background-color: black;
 }
 
 .restaurant-list {
   padding-top: 50px;
+}
+div {
+  float: left;
   width: 100%;
+}
+
+.location {
+  border-bottom: 1px solid gray;
+  background-color: #dadada;
+
+}
+h1{
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.location:hover {
+  background-color: #a5a5a5;
 }
